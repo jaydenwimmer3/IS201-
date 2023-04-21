@@ -1,0 +1,72 @@
+/* Define font styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: beige;
+  }
+  
+  h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    color: #0066CC;
+  }
+  
+  p {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  a {
+    color: #0066CC;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Define styles for positioned divs */
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #CCC;
+  }
+  
+  #sidebar {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 200px;
+    padding: 10px;
+    background-color: #EEE;
+    border-right: 1px solid #CCC;
+  }
+  
+  #content {
+    position: absolute;
+    top: 60px;
+    left: 220px;
+    padding: 10px;
+    width: calc(100% - 220px);
+  }
+  
+  /* Define some utility classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .margin-top {
+    margin-top: 20px;
+  }
+  
+  .border {
+    border: 1px solid #CCC;
+    padding: 10px;
+  }
+  
